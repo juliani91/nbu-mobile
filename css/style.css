@@ -135,6 +135,10 @@ html, body{
   margin-right: 5px;
 }
 
+.pay-bill:nth-child(4) .main-option{
+  border: 0;
+}
+
 .pay-bill:nth-child(4) .sub-flex i{
   font-size: 1.4em;
   border: 0;
