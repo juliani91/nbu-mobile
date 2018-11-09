@@ -250,6 +250,11 @@ html, body{
 .modal-sub-menu:nth-child(5){
   cursor: pointer;
 }
+
+.modal-sub-menu:nth-child(5) .sub-flex{
+  margin: 0;
+}
+
 .modal-sub-menu:nth-child(5) span{
   color: #24428D;
 }
