@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NBU MOBILE APP</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+<div class="flex-parent">
+  <img src="http://placehold.it/350x100" alt="">
+  <img src="http://placehold.it/400x200" alt="">
+</div>
+
+<main>
+  <section>
+<!--  PAY BILL    -->
+    <div class="pay-bill" id="paybill">
+      <div class="main-option">
+        <div class="sub-flex">
+          <i class="fa fa-usd" aria-hidden="true">$</i>
+          <span>PAY BILL</span>         
+        </div>
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </div>
+      <div class="sub-items">
+        <div class="quick-pay">
+           <h4>QUICK PAY</h4>
+           <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </div>
+        <div class="quick-pay">
+          <h4>PAY BY PHONE</h4>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </div>
+        <div class="quick-pay">
+          <h4>MY ACCOUNT</h4>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+<!--  OUTAGES    -->
+  <div class="pay-bill" id="outages">
+        <div class="main-option">
+          <div class="sub-flex">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            <span>OUTAGES</span>         
+          </div>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </div>
+        <div class="sub-items">
+          <div class="quick-pay">
+             <h4>OUTAGE MAP</h4>
+             <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+           <div class="quick-pay" id="reportOutage">
+            <h4>REPORT AN OUTAGE</h4>
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+                    <div class="report-outage-sub">
+            <h4>MY HOME</h4>
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+            <div class="report-outage-sub">
+              <h4>STREET ADDRESS</h4>
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+            <div class="report-outage-sub">
+              <h4>CALL</h4>
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+        </div>
+      </div>
+<!-- REPORT A VIOLATION -->
+<div class="pay-bill">
+      <div class="main-option">
+        <div class="sub-flex">
+          <i class="fa fa-flag" aria-hidden="true"></i>
+          <span>REPORT A VIOLATION</span>         
+        </div>
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </div>
+    </div>
+<!-- CONTACT US -->
+    <div class="pay-bill" id="contact">
+      <div class="main-option">
+        <div class="sub-flex">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <span>CONTACT US</span>         
+        </div>
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </div>
+      <div class="sub-items" style="margin-bottom: 50px;">
+        <div class="quick-pay">
+           <h4>CALL CUSTOMER SERVICE</h4>
+           <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </div>
+        <div class="quick-pay">
+          <h4>REPORT A PROBLEM</h4>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </div>
+        <div class="quick-pay">
+          <h4>REQUEST A CALL-BACK</h4>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-menu">
+    <div class="website">
+      <a href="www.nbutexas.com" target="_blank">Visit nbutexas.com</a>
+    </div>
+    <div class="settings">
+      <i class="fa fa-cog" aria-hidden="true" id="modal-opener"></i>
+    </div>
+  </footer>
+  
+    <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <div class="modal-menu">
+          <div class="modal-sub-menu">
+            <div class="sub-flex">
+            <span>ACCOUNT INFORMATION</span>         
+        </div>
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+          <div class="modal-sub-menu">
+            <div class="sub-flex">
+            <span>MY PROFILE</span>         
+        </div>
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+          <div class="modal-sub-menu">
+            <div class="sub-flex">
+            <span>APP SETTINGS</span>         
+        </div>
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+          <div class="modal-sub-menu">
+            <div class="sub-flex">
+            <span>LOG OUT</span>         
+        </div>
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+          <div class="modal-sub-menu">
+            <div class="sub-flex">
+            <span onclick="document.getElementById('id01').style.display='none'">CLOSE</span>         
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</main>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
