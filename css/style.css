@@ -170,6 +170,7 @@ html, body{
 .footer-menu .website a{
   color: #fff;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .footer-menu .settings{
